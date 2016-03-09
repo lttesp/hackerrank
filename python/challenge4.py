@@ -1,7 +1,15 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+#HackerRank Solutions
+
+# Language       : Python
+# Domain         : Python 
+# Sub Domain     : Introduction Challenges
+# Challenge Name : Python : Division
+
+#Solution Code follows
+
+from __future__ import division
 a = int(raw_input());
 b = int(raw_input());
-c = int(raw_input());
-d = int(raw_input());
 
-print (pow(a,b) + pow(c,d));
+print a//b;
+print a/b;

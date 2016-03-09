@@ -3,13 +3,13 @@
 # Language       : Python
 # Domain         : Python 
 # Sub Domain     : Introduction Challenges
-# Challenge Name : Loops using While
+# Challenge Name : Loops using for
 
 #Solution Code follows
 
 a = int(raw_input());
 
-i=0;
-while i < a:
-    print pow(i,2);
-    i += 1;
+for i in range(0,a):
+	print pow(i,2);
+	i += 1;
+	
